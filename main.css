@@ -14,7 +14,10 @@ html, body {
   
 }
 
-
+ /* scrollbar hide  */
+::-webkit-scrollbar {
+  display: none;
+} 
 
 .responsive-video-wrapper {
   position: relative;
@@ -1112,4 +1115,5 @@ footer {
   overflow-x: hidden;
   
 }
+
 
